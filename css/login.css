@@ -1,0 +1,103 @@
+/*********************************************************************************/
+/******************************* ESTILOS GENERALES *******************************/
+/*********************************************************************************/
+body{
+    margin: 0;
+    padding: 0;
+    background: #F6F6F6;
+    font-family: 'Exo 2', sans-serif;
+}
+
+/*********************************************************************************/
+/************************************ FLEX BOX  **********************************/
+/*********************************************************************************/
+.flex {
+    width: 900px;
+    display: flex;
+}
+
+.container {
+    height: 93vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box:first-child {
+    width: 400px;
+}
+
+.box {
+    width: 500px;
+}
+
+img.anuncio {
+    width: 100%;
+}
+
+img.logo {
+    width: 250px;
+}
+
+.sub-box.flex-sub-box {
+    width: 250px;
+    display: flex;
+    align-items: center;
+}
+
+input.input {
+    border: none;
+    background: transparent;
+    outline: none;
+    margin-left: 2px;
+}
+
+.sub-box {
+    margin-top: 23px;
+}
+
+.sub-box.flex-sub-box {
+    border-bottom: 1px solid #009BFF;
+    padding-bottom: 5px;
+}
+
+img.icon {
+    width: 20px;
+}
+
+button.button.send {
+    width: 250px;
+    height: 40px;
+    background: #009BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button.button.sign-up {
+    width: 250px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #009BFF;
+    color: #009BFF;
+    cursor: pointer;
+}
+
+a.recuperar-pass {
+    color: #959595;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+footer{
+    background-color: #222431;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: white;
+    font-size: 15px;
+}

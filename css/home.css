@@ -1,0 +1,41 @@
+/*********************************************************************************/
+/******************************* ESTILOS GENERALES *******************************/
+/*********************************************************************************/
+body{
+    margin: 0;
+    padding: 0;
+    background: #F6F6F6;
+    font-family: 'Exo 2', sans-serif;
+}
+
+
+/*********************************************************************************/
+/*********************************************************************************/
+.flex {
+    padding: 50px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box {
+    background: #051926;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 320px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.box img {
+    width: 80px;
+}
+
+.box:nth-child(3), .box:nth-child(4) {
+    margin-top: 50px;
+}

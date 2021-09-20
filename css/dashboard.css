@@ -1,0 +1,163 @@
+/*********************************************************************************/
+/******************************* ESTILOS GENERALES *******************************/
+/*********************************************************************************/
+body{
+    margin: 0;
+    padding: 0;
+    background: #F6F6F6;
+    font-family: 'Exo 2', sans-serif;
+}
+
+
+/*********************************************************************************/
+/************************************ DASHBOARD **********************************/
+/*********************************************************************************/
+main.container {
+    display: flex;
+}
+
+section.main {
+    width: calc(100% - 250px);
+}
+
+aside.barra-lateral {
+    width: 250px;
+    background-color: #EFEFEF;
+    height: 100vh;
+}
+
+
+/*********************************************************************************/
+/********************************* BARRA LATERAL *********************************/
+/*********************************************************************************/
+img.logo {
+    width: 80%;
+}
+
+.container-menu-hamburguer {
+    text-align: right;
+    padding-right: 11px;
+    padding-top: 11px;
+}
+
+img.menu {
+    width: 25px;
+}
+
+.container-logo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container-user {
+    margin-top: 20px;
+    text-align: center;
+}
+
+img.usuario {
+    width: 100px;
+}
+
+.container-name {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li img {
+    width: 21px;
+    margin-left: 13px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+li span {
+    margin-left: 5px;
+}
+
+li {
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.li-home{
+    background-color: #f6f6f6;
+}
+
+li:hover {
+    background: white;
+}
+
+.container-log-out {
+    position: absolute;
+    bottom: 0px;
+}
+
+
+/*********************************************************************************/
+/************************************* HEADER ************************************/
+/*********************************************************************************/
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+    border-bottom: 1px solid #007f10;
+}
+
+footer{
+    background-color: #222431;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-text p {
+    text-align: center;
+}
+
+.box-tec img, .box-itt img {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-tec, .box-itt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*********************************************************************************/
+/************************************** MAIN *************************************/
+/*********************************************************************************/
+section.main-iframes {
+    height: calc(100vh - 110px);
+}
+
+iframe {
+    width: 100%;
+    border: none;
+    height: 100%;
+    overflow: hidden;
+}
+/*********************************************************************************/
+/************************************* FOOTER ************************************/
+/*********************************************************************************/
+footer p {
+    color: white;
+    font-size: 15px;
+}
